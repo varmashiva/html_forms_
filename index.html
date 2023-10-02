@@ -1,0 +1,57 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="results.html" method="GET">
+    
+    <h1 align="center">Creating Account</h1>
+    <div><label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="username">
+    </div><br>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email">
+    </div><br>
+    <div><label>password</label>
+      <input type="password" name="passward">
+      </div><br>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="100">
+      </div><br>
+      <div>Gender:</div>
+      <div>
+      <input type="radio" name="gender" id="male" value="Male">Male
+      </div>
+      <div>
+        <input type="radio" name="gender" id="female" value="female">female
+        </div>
+        <div>
+          <input type="radio" name="gender" id="Trans" value="Trans">Trans
+          </div><br>
+        <label for="Phone Number">Phone Number:</label>
+        <input type="tel" name="Phone Number" id="Phone Number">  
+        <div><br>
+
+      
+    <button>submit</button>
+    
+    
+  </form>
+  
+</body>
+</html>
